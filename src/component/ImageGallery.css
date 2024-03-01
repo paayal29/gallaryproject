@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+  }
+  
+  .filter-buttons button {
+    margin: 5px 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+  }
+  
+  .filter-buttons button:hover {
+    background-color: rgb(215, 177, 27)
+  }
+  
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center
+   
+  }
+  
+  .image-gallery img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    margin: 5px 5px
+    
+  }
